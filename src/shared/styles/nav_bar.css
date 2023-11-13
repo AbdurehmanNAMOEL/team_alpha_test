@@ -1,0 +1,31 @@
+.nav-container{
+    @apply w-[100%]
+    h-[80px]
+    shadow-md
+    fixed
+    bg-[rgba(0,0,0,0.2)]
+    flex
+    flex-row
+    justify-between
+    items-center
+    z-[2000000]
+}
+
+.logo{
+    @apply text-[white]
+    font-bold
+    text-[27px]
+    ml-5
+}
+.nav-right-container{
+    @apply w-[200px]
+    h-[80px]
+    flex
+    items-center
+    gap-5
+}
+.simulation{
+    @apply text-white
+    cursor-pointer;
+    text-decoration:none;
+}

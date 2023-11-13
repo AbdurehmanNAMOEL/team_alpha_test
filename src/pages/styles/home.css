@@ -1,0 +1,26 @@
+.home-container{
+  @apply w-[100%]
+  h-[auto]
+  flex
+  flex-col
+  bg-[#1e1e1e]
+}
+.hero-section{
+    @apply w-[100%]
+    h-[60vh]
+    mt-[80px]
+    z-30
+    flex
+    justify-center
+    items-center
+}
+
+.card-container{
+    @apply w-[80%]
+    h-[500px]
+    grid 
+    grid-flow-row 
+    grid-cols-4
+    items-center
+    ml-[10%]
+}

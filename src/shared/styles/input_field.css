@@ -1,0 +1,6 @@
+.input_field{
+    @apply flex
+    flex-col
+    gap-3
+    h-[80px]
+}

@@ -1,0 +1,12 @@
+.action-btn-container{
+    @apply h-[45px]
+    flex
+    justify-center
+    items-center
+    text-white
+    bg-blue-500
+    shadow-md
+    rounded-md
+    cursor-pointer
+    text-[20px]
+}

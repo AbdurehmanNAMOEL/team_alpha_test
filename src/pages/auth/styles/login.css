@@ -1,0 +1,31 @@
+.login-container{
+    @apply w-[100%]
+    h-[100vh]
+    flex
+ 
+    items-center
+    flex-col
+}
+.create-account-container{
+    @apply w-[90%]
+    h-[50px]
+    absolute
+    flex
+    justify-between
+    mt-5
+}
+.login-card{
+    @apply 
+    w-[300px]
+    md:w-[400px]
+    h-[400px]
+    bg-[#333]
+    rounded-md
+    flex
+    flex-col
+    gap-3
+    text-white
+    justify-center
+    items-center
+    mt-[150px]
+}

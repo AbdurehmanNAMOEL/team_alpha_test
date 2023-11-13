@@ -1,0 +1,54 @@
+.planet-card-container{
+    @apply w-[200px]
+    h-[300px]
+    bg-[#333]
+    shadow-lg
+    rounded-sm
+    relative
+    flex
+    flex-col
+    overflow-hidden
+    cursor-pointer
+    items-center;
+    background-image:url('../../assets/images/sky.jpg');
+    background-size:cover;
+    background-posotion:center;
+
+}
+.image{
+    @apply w-[150px]
+    h-[150px]
+}
+.header{
+    @apply w-[80%]
+    h-[60px]
+    flex
+    justify-between
+    items-center
+    text-white
+    cursor-pointer
+}
+.planet_name{
+    @apply text-white
+    font-bold
+    text-[26px]
+    mt-[10px]
+}
+.planet-detail{
+    @apply w-[100%]
+    h-[100%]
+    bg-[rgba(0,0,0,0.7)]
+    absolute
+    flex
+    flex-col
+    blur-lg;
+    transition:all 0.7s;
+}
+.text-link{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:20px;
+    margin-left:20px
+}

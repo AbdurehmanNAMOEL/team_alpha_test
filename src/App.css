@@ -1,0 +1,7 @@
+.app{
+  @apply w-full
+  h-[100vh]
+  flex
+  flex-col
+  bg-[#1e1e1e];
+}

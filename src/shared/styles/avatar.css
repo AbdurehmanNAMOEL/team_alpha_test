@@ -1,0 +1,6 @@
+.avatar-container{
+    @apply rounded-full
+    justify-center
+    items-center
+    cursor-pointer
+}
